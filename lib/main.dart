@@ -9,9 +9,7 @@ void main() {
         backgroundColor: Colors.blueGrey[900],
       ),
       body: Center(
-        child: Image(
-            image: NetworkImage(
-                'https://www.bhaktiphotos.com/wp-content/uploads/2018/04/Mahadev-Bhagwan-Photo-for-Devotee.jpg')),
+        child: Image(image: AssetImage('images/diamond.jpeg')),
       ),
     ),
   ));
